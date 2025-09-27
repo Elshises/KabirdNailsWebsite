@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nails Beauty Studio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fff0f5;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: #ff69b4;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url("https://images.unsplash.com/photo-1512496015851-a90fb38ba796") center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    /* Services */
+    .services {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .services h2 {
+      margin-bottom: 30px;
+      font-size: 32px;
+      color: #ff69b4;
+    }
+    .service-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .service {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .service img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .service:hover {
+      transform: translateY(-8px);
+    }
+
+    /* About */
+    .about {
+      padding: 50px 20px;
+      background: #ffe4ef;
+      text-align: center;
+    }
+    .about h2 {
+      color: #ff69b4;
+    }
+
+    /* Contact */
+    .contact {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .contact h2 {
+      color: #ff69b4;
+    }
+    .contact p {
+      margin: 10px 0;
+    }
+
+    /* Footer */
+    footer {
+      background: #ff69b4;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Nails Beauty Studio 💅</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    Gorgeous Nails, Gorgeous You ✨
+  </div>
+
+ <!-- Services -->
+<!-- Services -->
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="service-list">
+
+    <!-- Old 4 services with your images -->
+    <div class="service">
+      <img src="nails1.jpg" alt="Classic Manicure">
+      <h3>Classic Manicure</h3>
+      <p>Gentle care for your hands & nails.</p>
+    </div>
+
+    <div class="service">
+      <img src="nails2.jpg" alt="Luxury Pedicure">
+      <h3>Luxury Pedicure</h3>
+      <p>Relaxing spa treatment for your feet.</p>
+    </div>
+
+    <div class="service">
+      <img src="nails3.jpg" alt="Nail Art">
+      <h3>Nail Art</h3>
+      <p>Trendy & beautiful designs for every occasion.</p>
+    </div>
+
+    <div class="service">
+      <img src="nails4.jpg" alt="Gel Polish">
+      <h3>Gel Polish</h3>
+      <p>Long-lasting & shiny nails with gel finish.</p>
+    </div>
+
+    <!-- New 4 services with high-quality images -->
+    <div class="service">
+      <img src="nails5.jpg" alt="Glitter Nails">
+      <h3>Glitter Nails</h3>
+      <p>Shiny & glamorous glitter finishes that sparkle in every light.</p>
+    </div>
+
+    <div class="service">
+      <img src="nails6.jpg" alt="French Tips">
+      <h3>French Tips</h3>
+      <p>Elegant & timeless French manicure for any occasion.</p>
+    </div>
+
+    <div class="service">
+      <img src="nails7.jpg" alt="Acrylic Nails">
+      <h3>Acrylic Nails</h3>
+      <p>Strong & durable acrylic extensions with stunning designs.</p>
+    </div>
+
+    <div class="service">
+      <img src="nails8.jpg" alt="Press-On Nails">
+      <h3>Press-On Nails</h3>
+      <p>Quick & stylish press-ons for a salon look in minutes.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Nails Beauty Studio, we believe every girl deserves stunning nails. Our expert team provides high-quality nail care and creative designs just for you.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Location: Downtown Beauty Mall</p>
+    <p>📞 Phone: +254 712 345 678</p>
+    <p>📧 Email: nailsbeauty@example.com</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Nails Beauty Studio | Designed with ❤️ for Girls
+  </footer>
+
+</body>
+</html>
